@@ -1,0 +1,77 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-117011-5956-eooalc/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-117011-5956-eooalc/package.tgz",
+        "spec": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-117011-5956-eooalc/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/apm-install-dir-117011-5956-1gjuu7l"
+    ]
+  ],
+  "_from": "../d-117011-5956-eooalc/package.tgz",
+  "_id": "filesize@2.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/filesize",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-117011-5956-eooalc/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-117011-5956-eooalc/package.tgz",
+    "spec": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-117011-5956-eooalc/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117011-5956-eooalc/package.tgz",
+  "_shasum": "c471e5fc7430e4c592c4ebd8406e38be23f692ee",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-117011-5956-eooalc/package.tgz",
+  "_where": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/apm-install-dir-117011-5956-1gjuu7l",
+  "bugs": {
+    "url": "https://github.com/mkxml/atom-filesize/issues"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {
+    "filesize-calculator": "^1.0.0"
+  },
+  "description": "Displays the current file's size on the status bar",
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb-base": "^9.0.0",
+    "eslint-plugin-import": "^2.0.1"
+  },
+  "engines": {
+    "atom": ">=1.1.0 <2.0.0"
+  },
+  "homepage": "https://github.com/mkxml/atom-filesize",
+  "license": "MIT",
+  "main": "./lib/filesize",
+  "name": "filesize",
+  "optionalDependencies": {},
+  "readme": "# filesize package for Atom\n\nThis package is intended for use with the [Atom Editor](https://atom.io) and it displays the size of the focused file in the [status-bar](https://atom.io/packages/status-bar) component included with Atom.\n\n**Bonus:** If you click on the filesize component it will show a tooltip with more information about the file, try it out!\n\n**New!** Version 2.0.0 is here. We now have **gzip** support, open the popup and check it out!\n\nIt works great with your new theme! The popups tries to follow your current theme's style, try switching themes and see for yourself.\n\n# Get it now\n\nIf you have Atom Shell Commands run this on your terminal to get it now:\n\n  `apm install filesize`\n\nYou can also find this package searching for `filesize` in the Atom package browser inside Settings.\n\n# Screenshots\n\n`filesize` with popup opened in One Dark theme.\n\n<img src=\"https://cldup.com/R0n8GlrGqs.jpg\" style=\"width: 100%; max-width: 784px;\" title=\"Dark screenshot\">\n\n`filesize` with popup opened in Solarized Light theme while inspecting the above screenshot. Screenception!\n\n<img src=\"https://cldup.com/snKMrn_B-T.jpg\" style=\"width: 100%; max-width: 784px;\" title=\"Light screenshot\">\n\n# How it works\n\nIt uses Node.JS's [fs](https://nodejs.org/api/fs.html) module to calculate the size in bytes of the current file in focus.\n\nIf the popup is enabled (by default it is), it fetches some additional info you might want to see:\n  - Absolute path\n  - Mime type\n  - Creation date\n  - Date of last change\n  - Dimensions (if it's an image)\n\nIt works along side the status-bar component, so you need to have both enabled.\nThe status-bar component is installed and enabled by default by Atom. Thus, usually, you won't need to worry about it.\n\n# Settings\n\nThe package has three settings located in `Settings->Packages->filesize`:\n\n  - `Kibibyte Representation`, whether you want to show the size using Kibibyte or Kilobyte representations ([SI](https://en.wikipedia.org/wiki/International_System_of_Units)). It defaults to using the Kibibyte one.\n  - `Enable Popup Appearance`, whether the popup will show on clicking the `filesize` component on the status bar. Defaults to showing the popup.\n  - `Display Full Day Time On Popup`, whether to use 24 or 12 hour time display. It defaults to using the 24-hour format.\n\n# Contributing\n\nYou are welcome to send any issues or pull requests.\n\nThe current styleguide for the project is [Airbnb's JavaScript Styleguide](https://github.com/airbnb/javascript).\n\nPlease run eslint with `npm run lint` and `apm test` before sending commits.\n\nAny bugs? Please file an [issue](https://github.com/mkxml/atom-filesize/issues/)\n\nWanna fix it? Please send a [pull request](https://github.com/mkxml/atom-filesize/pulls/).\n\n# Authors\n\n- [Matheus Kautzmann](https://github.com/mkxml)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkxml/atom-filesize.git"
+  },
+  "scripts": {
+    "lint": "eslint lib spec"
+  },
+  "version": "2.0.2"
+}

@@ -1,0 +1,95 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+# Each scope (e.g. '.source.coffee' above) can only be declared once.
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# https://atom.io/docs/latest/using-atom-basic-customization#cson
+
+'.source.jsx':
+  'div el':
+    'prefix': 'div'
+    'body': '<div className="$1">$2</div>'
+  'a el':
+    'prefix': 'a'
+    'body': '<a href="$1" className="$2">$3</a>'
+  'span el':
+    'prefix': 'span'
+    'body': '<span className="$1">$2</span>'
+  'i el':
+    'prefix': 'i'
+    'body': '<i className="$1">$2</i>'
+  'img el':
+    'prefix': 'img'
+    'body': '<img src="$1">'
+  'li el':
+    'prefix': 'li'
+    'body': '<li className="$1">$2</li>'
+  'ul el':
+    'prefix': 'ul'
+    'body': '<ul className="$1">$2</ul>'
+  'header el':
+    'prefix': 'header'
+    'body': '<header className="$1">$2</header>'
+  'number el':
+    'prefix': 'number'
+    'body': '<number className="$1">$2</number>'
+  'h1 el':
+    'prefix': 'h1'
+    'body': '<h1 className="$1">$2</h1>'
+  'h2 el':
+    'prefix': 'h2'
+    'body': '<h2 className="$1">$2</h2>'
+  'h3 el':
+    'prefix': 'h3'
+    'body': '<h3 className="$1">$2</h3>'
+  'h4 el':
+    'prefix': 'h4'
+    'body': '<h4 className="$1">$2</h4>'
+  'label el':
+    'prefix': 'label'
+    'body': '<label className="$1">$2</label>'
+  'button el':
+    'prefix': 'button'
+    'body': '<button id="$1" className="$2" type="$3">$4</button>'
+  'p el':
+    'prefix': 'p'
+    'body': '<p className="$1">$2</p>'
+  'strong el':
+    'prefix': 'strong'
+    'body': '<strong>$1</strong>'
+  'textarea el':
+    'prefix': 'textarea'
+    'body': '<textarea placeholder="$1">$2</textarea>'
+  'form el':
+    'prefix': 'form'
+    'body': '<form onSubmit={$1}>$2</form>'
+  'input el':
+    'prefix': 'input'
+    'body': '<input type="$1" className="$2" name="$3" />'
+  'table el':
+    'prefix': 'table'
+    'body': '<table>$1</table>'
+  'tr el':
+    'prefix': 'tr'
+    'body': '<tr>$1</tr>'
+  'th el':
+    'prefix': 'th'
+    'body': '<th>$1</th>'
+  'td el':
+    'prefix': 'td'
+    'body': '<td>$1</td>'

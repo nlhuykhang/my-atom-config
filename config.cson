@@ -1,0 +1,122 @@
+"*":
+  "atom-beautify":
+    _analyticsUserId: "ac279a74-29c6-4196-8c93-a04277282e80"
+    general:
+      _analyticsUserId: "ed6af12c-f702-46e0-8a3c-ddeac73c830e"
+    html:
+      indent_size: 2
+    js:
+      indent_size: 2
+    jsx:
+      indent_size: 2
+  "autocomplete-elixir":
+    elixirPath: "/usr/local/bin/elixir"
+    erlangHome: "/usr/local/bin/erl"
+  core:
+    audioBeep: false
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "tool-bar"
+      "react"
+      "autocomplete-elixir"
+      "atom-ctags"
+      "linter-eslint"
+    ]
+    openEmptyEditorOnStart: false
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "limited"
+  editor:
+    fontFamily: "Ubuntu Mono"
+    fontSize: 11
+    invisibles: {}
+    preferredLineLength: 100
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+  "exception-reporting":
+    userId: "9c22836c-2b5c-edb0-4d8d-21fa0ac2b4b5"
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  fonts:
+    fontFamily: "Ubuntu Mono"
+  "language-elm":
+    elmOraclePath: "/usr/local/bin/elm-oracle"
+  linter:
+    showErrorPanel: false
+  "linter-elixirc":
+    elixircPath: "/usr/local/bin/elixirc"
+    mixPath: "/usr/local/bin/mix"
+  "linter-elm-make":
+    elmMakeExecutablePath: "/usr/local/bin/elm-make"
+  "linter-eslint":
+    advancedLocalNodeModules: "/usr/local/bin/eslint"
+    globalNodePath: "/Users/khangnlh/.nvm/versions/node/v6.9.1"
+    rulesToSilenceWhileTyping: [
+      "no-trailing-spaces"
+      "eol-last"
+    ]
+    useGlobalEslint: true
+  "markdown-preview":
+    breakOnSingleNewline: true
+  minimap: {}
+  nuclide:
+    installRecommendedPackages: true
+    "nuclide-arcanist": {}
+    "nuclide-buck-files": {}
+    "nuclide-clang-atom": {}
+    "nuclide-datatip": {}
+    "nuclide-debugger-hhvm": {}
+    "nuclide-flow": {}
+    "nuclide-format-js": {}
+    "nuclide-hack": {}
+    "nuclide-health": {}
+    "nuclide-home":
+      showHome: false
+    "nuclide-ios-simulator-logs": {}
+    "nuclide-ocaml": {}
+    "nuclide-output": {}
+    "nuclide-react-native": {}
+    "nuclide-working-sets": {}
+  "seti-ui":
+    compactView: true
+    disableAnimations: true
+    font: "Default Atom Font"
+  "tree-view":
+    hideVcsIgnoredFiles: false
+  "vim-mode-plus":
+    useClipboardAsDefaultRegister: true
+  welcome:
+    showOnStartup: false
+".dockerfile.source":
+  editor:
+    preferredLineLength: 100
+".dockerignore.source":
+  editor:
+    preferredLineLength: 100
+".elixir.html.text":
+  editor:
+    preferredLineLength: 100
+".elixir.source":
+  editor:
+    preferredLineLength: 100
+".elixir.text":
+  editor:
+    preferredLineLength: 100
+".elm.source":
+  editor:
+    preferredLineLength: 100
+".hyperlink.text":
+  editor:
+    preferredLineLength: 100

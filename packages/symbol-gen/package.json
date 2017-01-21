@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-116812-57955-1d24sf6/package.tgz",
+        "raw": "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/d-117021-9872-a7ejl2/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-116812-57955-1d24sf6/package.tgz",
-        "spec": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-116812-57955-1d24sf6/package.tgz",
+        "rawSpec": "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/d-117021-9872-a7ejl2/package.tgz",
+        "spec": "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/d-117021-9872-a7ejl2/package.tgz",
         "type": "local"
       },
-      "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/apm-install-dir-116812-57955-1v5gwbb"
+      "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/apm-install-dir-117021-9872-1h0tvn2"
     ]
   ],
-  "_from": "../d-116812-57955-1d24sf6/package.tgz",
+  "_from": "../d-117021-9872-a7ejl2/package.tgz",
   "_id": "symbol-gen@1.3.1",
   "_inCache": true,
   "_installable": true,
   "_location": "/symbol-gen",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-116812-57955-1d24sf6/package.tgz",
+    "raw": "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/d-117021-9872-a7ejl2/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-116812-57955-1d24sf6/package.tgz",
-    "spec": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-116812-57955-1d24sf6/package.tgz",
+    "rawSpec": "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/d-117021-9872-a7ejl2/package.tgz",
+    "spec": "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/d-117021-9872-a7ejl2/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-116812-57955-1d24sf6/package.tgz",
+  "_resolved": "file:../d-117021-9872-a7ejl2/package.tgz",
   "_shasum": "bbafd14b7f3c793db51a0e61793bcb5526820eeb",
   "_shrinkwrap": null,
-  "_spec": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-116812-57955-1d24sf6/package.tgz",
-  "_where": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/apm-install-dir-116812-57955-1v5gwbb",
+  "_spec": "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/d-117021-9872-a7ejl2/package.tgz",
+  "_where": "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/apm-install-dir-117021-9872-1h0tvn2",
   "bugs": {
     "url": "https://github.com/weskinner/symbol-gen/issues"
   },

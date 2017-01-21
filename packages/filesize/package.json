@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-117011-5956-eooalc/package.tgz",
+        "raw": "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/d-117021-9190-1i30h41/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-117011-5956-eooalc/package.tgz",
-        "spec": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-117011-5956-eooalc/package.tgz",
+        "rawSpec": "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/d-117021-9190-1i30h41/package.tgz",
+        "spec": "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/d-117021-9190-1i30h41/package.tgz",
         "type": "local"
       },
-      "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/apm-install-dir-117011-5956-1gjuu7l"
+      "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/apm-install-dir-117021-9190-5o1nu6"
     ]
   ],
-  "_from": "../d-117011-5956-eooalc/package.tgz",
-  "_id": "filesize@2.0.2",
+  "_from": "../d-117021-9190-1i30h41/package.tgz",
+  "_id": "filesize@2.0.3",
   "_inCache": true,
   "_installable": true,
   "_location": "/filesize",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-117011-5956-eooalc/package.tgz",
+    "raw": "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/d-117021-9190-1i30h41/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-117011-5956-eooalc/package.tgz",
-    "spec": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-117011-5956-eooalc/package.tgz",
+    "rawSpec": "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/d-117021-9190-1i30h41/package.tgz",
+    "spec": "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/d-117021-9190-1i30h41/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-117011-5956-eooalc/package.tgz",
-  "_shasum": "c471e5fc7430e4c592c4ebd8406e38be23f692ee",
+  "_resolved": "file:../d-117021-9190-1i30h41/package.tgz",
+  "_shasum": "bba1913a4fb2991ba476527a571a5a6766b98175",
   "_shrinkwrap": null,
-  "_spec": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-117011-5956-eooalc/package.tgz",
-  "_where": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/apm-install-dir-117011-5956-1gjuu7l",
+  "_spec": "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/d-117021-9190-1i30h41/package.tgz",
+  "_where": "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/apm-install-dir-117021-9190-5o1nu6",
   "bugs": {
     "url": "https://github.com/mkxml/atom-filesize/issues"
   },
@@ -47,7 +47,7 @@
     }
   },
   "dependencies": {
-    "filesize-calculator": "^1.0.0"
+    "filesize-calculator": "^1.0.1"
   },
   "description": "Displays the current file's size on the status bar",
   "devDependencies": {
@@ -73,5 +73,5 @@
   "scripts": {
     "lint": "eslint lib spec"
   },
-  "version": "2.0.2"
+  "version": "2.0.3"
 }

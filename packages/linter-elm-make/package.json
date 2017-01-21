@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-117011-5989-1xhqq2n/package.tgz",
+        "raw": "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/d-117021-9214-1dzt7n1/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-117011-5989-1xhqq2n/package.tgz",
-        "spec": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-117011-5989-1xhqq2n/package.tgz",
+        "rawSpec": "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/d-117021-9214-1dzt7n1/package.tgz",
+        "spec": "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/d-117021-9214-1dzt7n1/package.tgz",
         "type": "local"
       },
-      "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/apm-install-dir-117011-5989-115j84d"
+      "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/apm-install-dir-117021-9214-kvhwzx"
     ]
   ],
-  "_from": "../d-117011-5989-1xhqq2n/package.tgz",
-  "_id": "linter-elm-make@0.18.2",
+  "_from": "../d-117021-9214-1dzt7n1/package.tgz",
+  "_id": "linter-elm-make@0.18.3",
   "_inCache": true,
   "_installable": true,
   "_location": "/linter-elm-make",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-117011-5989-1xhqq2n/package.tgz",
+    "raw": "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/d-117021-9214-1dzt7n1/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-117011-5989-1xhqq2n/package.tgz",
-    "spec": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-117011-5989-1xhqq2n/package.tgz",
+    "rawSpec": "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/d-117021-9214-1dzt7n1/package.tgz",
+    "spec": "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/d-117021-9214-1dzt7n1/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-117011-5989-1xhqq2n/package.tgz",
-  "_shasum": "46784e1410457be38bdc9cb999cf472c8e20655f",
+  "_resolved": "file:../d-117021-9214-1dzt7n1/package.tgz",
+  "_shasum": "a45a37de3dbf3d95280951a8791e85b615c5c599",
   "_shrinkwrap": null,
-  "_spec": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/d-117011-5989-1xhqq2n/package.tgz",
-  "_where": "/private/var/folders/c6/ntpxpml144xb5_k47vrygs000000gn/T/apm-install-dir-117011-5989-115j84d",
+  "_spec": "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/d-117021-9214-1dzt7n1/package.tgz",
+  "_where": "/private/var/folders/0p/l2sghvqn663b58vd_prvbpt00000gn/T/apm-install-dir-117021-9214-kvhwzx",
   "bugs": {
     "url": "https://github.com/mybuddymichael/linter-elm-make/issues"
   },
@@ -85,5 +85,5 @@
     "type": "git",
     "url": "git+https://github.com/mybuddymichael/linter-elm-make.git"
   },
-  "version": "0.18.2"
+  "version": "0.18.3"
 }
